@@ -20,7 +20,7 @@ jobs:
       - name: Fetch Head
         uses: actions/checkout@v3
       - name: Rust Install
-        uses: ./.github/actions/rust-install
+        uses: wallet-rs/wallet-rs/.github/actions/rust-install
         with:
           sccache_endpoint: ""
           sccache_key_id: ""
