@@ -1,0 +1,5 @@
+[package]
+name = "chronos"
+description = "An EVM simulator built on top of foundry"
+version = "0.4.0"
+edition = "2021"
