@@ -1,7 +1,7 @@
 [workspace]
 resolver = "2"
 
-members = ["chronos"]
+members = ["crates/chronos"]
 # Ref: https://www.uffizzi.com/blog/optimizing-rust-builds-for-faster-github-actions-pipelines
 
 [profile.dev]
