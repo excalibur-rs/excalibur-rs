@@ -22,9 +22,9 @@ jobs:
       - name: Rust Install
         uses: wallet-rs/wallet-rs/.github/actions/rust-install@main
         with:
-          sccache_endpoint: ""
-          sccache_key_id: ""
-          sccache_secret: ""
+          sccache_endpoint: ${{ secrets.SCCACHE_ENDPOINT }}
+          sccache_key_id: ${{ secrets.SCCACHE_KEY_ID }}
+          sccache_secret: ${{ secrets.SCCACHE_SECRET }}
       - name: Rust Format Check
         uses: actions-rs/cargo@v1
         with:
@@ -40,9 +40,9 @@ jobs:
       - name: Rust Install
         uses: wallet-rs/wallet-rs/.github/actions/rust-install@main
         with:
-          sccache_endpoint: ""
-          sccache_key_id: ""
-          sccache_secret: ""
+          sccache_endpoint: ${{ secrets.SCCACHE_ENDPOINT }}
+          sccache_key_id: ${{ secrets.SCCACHE_KEY_ID }}
+          sccache_secret: ${{ secrets.SCCACHE_SECRET }}
       - name: Rust Format Check
         uses: actions-rs/cargo@v1
         with:
@@ -63,9 +63,9 @@ jobs:
       - name: Rust Install
         uses: wallet-rs/wallet-rs/.github/actions/rust-install@main
         with:
-          sccache_endpoint: ""
-          sccache_key_id: ""
-          sccache_secret: ""
+          sccache_endpoint: ${{ secrets.SCCACHE_ENDPOINT }}
+          sccache_key_id: ${{ secrets.SCCACHE_KEY_ID }}
+          sccache_secret: ${{ secrets.SCCACHE_SECRET }}
       - name: Rust Format Check
         uses: actions-rs/cargo@v1
         with:
